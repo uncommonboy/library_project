@@ -1,0 +1,12 @@
+@import "null_styles.scss";
+.wraper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.container {
+  padding: 15px;
+  margin: 0 auto;
+  width: 1290px;
+}
