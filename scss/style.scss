@@ -69,6 +69,62 @@
 }
 .main {
   display: 1 1 auto;
+
+  .hero {
+    background-color: #cde3e6;
+
+    &__container {
+      display: flex;
+      gap: 92px;
+    }
+    &__info {
+      display: flex;
+      flex-direction: column;
+      margin-top: 160px;
+      margin-bottom: 170px;
+    }
+    &__title {
+      max-width: 527px;
+      font-family: "Playfair Display";
+      font-style: normal;
+      font-weight: 600;
+      font-size: 55px;
+      line-height: 62px;
+      letter-spacing: 0.01em;
+      color: #17141e;
+    }
+    &__descr {
+      max-width: 400px;
+      font-family: "Poppins";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      padding-top: 25px;
+      color: rgba(23, 20, 30, 0.74);
+    }
+    &__btn {
+      margin-top: 30px;
+      box-sizing: border-box;
+      max-width: 119px;
+      height: 39px;
+      background: #2c2c56;
+      border: 1px solid #1d1d4a;
+      border-radius: 6px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+    }
+    &__img {
+     margin-top: 105px;
+     margin-bottom: 145px;
+      display: flex;
+      height: 351px;
+      gap: 32px;
+    }
+  }
 }
 
 .footer {
