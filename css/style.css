@@ -213,6 +213,143 @@ h6 {
   height: 351px;
   gap: 32px;
 }
+.main .favourites__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 50px;
+  margin-top: 101px;
+}
+.main .favourites__title {
+  align-self: center;
+  max-width: 360px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 59px;
+  color: #17141e;
+}
+.main .favourites__scroll {
+  display: flex;
+  justify-content: space-between;
+}
+.main .favourites__icon1 {
+  width: 51px;
+  height: 33px;
+  background: #ffffff;
+  border: 1px solid #1d1d4a;
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+.main .favourites__icon1:hover {
+  background: #2c2c56;
+  color: #fff;
+}
+.main .favourites__books {
+  display: flex;
+  overflow: auto;
+  gap: 33px;
+}
+.main .favourites__book {
+  width: 265px;
+  height: 464px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main .favourites__imgdiv {
+  width: 265px;
+  height: 321px;
+  background: #f2f2f2;
+  border-radius: 7px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.main .favourites__booktitle {
+  width: 163px;
+  height: 32px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 32px;
+  color: #17141e;
+  display: flex;
+  margin-top: 15px;
+}
+.main .favourites__bookdescr {
+  display: flex;
+  margin-top: 10px;
+  width: 243px;
+  height: 36px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.015em;
+  color: rgba(23, 20, 30, 0.74);
+}
+.main .favourites__bookprice {
+  display: none;
+  width: 50px;
+  height: 23px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.005em;
+  color: #0e0e3e;
+}
+.main .favourites__bookbtndiv {
+  display: none;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.main .favourites__bookbtn {
+  display: none;
+  width: 126px;
+  height: 35px;
+  background: #ffffff;
+  border: 1px solid #1d1d4a;
+  border-radius: 6px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.045em;
+  color: #0e0e3e;
+}
+.main .favourites__btndiv {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+}
+.main .favourites__btn {
+  width: 142px;
+  height: 39px;
+  background: #2C2C56;
+  border: 1px solid #1D1D4A;
+  color: #ffffff;
+  border-radius: 6px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.045em;
+}
 
 .footer__contain {
   display: flex;
