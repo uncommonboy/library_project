@@ -261,6 +261,18 @@ h6 {
   flex-direction: column;
   align-items: center;
 }
+.main .favourites__book:hover {
+  gap: 10px;
+}
+.main .favourites__book:hover .favourites__bookdescr {
+  display: none;
+}
+.main .favourites__book:hover .favourites__bookprice {
+  display: block;
+}
+.main .favourites__book:hover .favourites__bookbtn {
+  display: block;
+}
 .main .favourites__imgdiv {
   width: 265px;
   height: 321px;
@@ -339,8 +351,8 @@ h6 {
 .main .favourites__btn {
   width: 142px;
   height: 39px;
-  background: #2C2C56;
-  border: 1px solid #1D1D4A;
+  background: #2c2c56;
+  border: 1px solid #1d1d4a;
   color: #ffffff;
   border-radius: 6px;
   font-family: "Poppins";
@@ -349,6 +361,68 @@ h6 {
   font-size: 15px;
   line-height: 22px;
   letter-spacing: -0.045em;
+}
+.main .summerfav {
+  background-color: #cae1e4;
+  margin-top: 100px;
+}
+.main .summerfav__container {
+  margin: 0 auto;
+  display: flex;
+  gap: 100px;
+  max-width: 1400px;
+}
+.main .summerfav__right {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.main .summerfav__main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.main .summerfav__title {
+  max-width: 372px;
+  font-family: "Playfair Display";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 54px;
+  text-align: center;
+  color: #17141e;
+}
+.main .summerfav__descr {
+  margin-top: 21px;
+  max-width: 415px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: -0.02em;
+  color: rgba(23, 20, 30, 0.74);
+}
+.main .summerfav__btn {
+  margin-top: 41px;
+  box-sizing: border-box;
+  width: 119px;
+  height: 39px;
+  background: #2c2c56;
+  border: 1px solid #1d1d4a;
+  border-radius: 6px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 22px;
+  letter-spacing: -0.045em;
+  color: #ffffff;
+}
+.main .summerfav__left {
+  padding-top: 64px;
+  padding-bottom: 64px;
 }
 
 .footer__contain {
